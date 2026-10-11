@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local keys, plaintext and encrypted results
+.env
+.env.*
+*.key
+*.pem
+*.seed
+*.dec
+*.bin
+*.part
+inputs/
+outputs/
+
+# Only the prepared portable archive is distributed
+*.zip
+!downloads/SEED_ECB_Python_portable.zip
